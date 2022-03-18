@@ -1,0 +1,8 @@
+importfilelist
+{
+	"file"	"Mag_is_unused.vmt"
+	"file"	"Frame_is_unused.vmt"
+	"file"	"C_Rail_NO_ACOG_is_unused.vmt"
+	"file"	"C_Grip_NO_Rails_is_unused.vmt"
+	"file"	"Stock_is_unused.vmt"
+}

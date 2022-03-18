@@ -1,0 +1,6 @@
+importfilelist
+{
+	"file"	"t1_is_unused.vmt"
+	"file"	"t2_is_unused.vmt"
+	"file"	"PBS_is_unused.vmt"
+}

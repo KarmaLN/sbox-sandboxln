@@ -1,0 +1,7 @@
+importfilelist
+{
+	"file"	"t_phoenix_is_unused.vmt"
+	"file"	"v_hands_is_unused.vmt"
+	"file"	"slide_is_unused.vmt"
+	"file"	"frame_is_unused.vmt"
+}

@@ -1,0 +1,1965 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "ModelModifierList"
+				children = 
+				[
+					{
+						_class = "ModelModifier_ScaleAndMirror"
+						scale = 1.0
+						mirror_x = false
+						mirror_y = true
+						mirror_z = false
+						flip_bone_forward = false
+						swap_left_and_right_bones = false
+					},
+				]
+			},
+			{
+				_class = "BoneMarkupList"
+				bone_cull_type = "None"
+			},
+			{
+				_class = "WeightListList"
+				children = 
+				[
+					{
+						_class = "WeightList"
+						name = "bonemask_default"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "bip01"
+								weight = 1.0
+							},
+							{
+								bone = "g36_body"
+								weight = 1.0
+							},
+							{
+								bone = "g36_bolt"
+								weight = 1.0
+							},
+							{
+								bone = "g36_bullet"
+								weight = 1.0
+							},
+							{
+								bone = "g36_charging_handle"
+								weight = 1.0
+							},
+							{
+								bone = "g36_mag_release"
+								weight = 1.0
+							},
+							{
+								bone = "g36_magazine"
+								weight = 1.0
+							},
+							{
+								bone = "g36_silencer"
+								weight = 1.0
+							},
+							{
+								bone = "g36_trigger"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = -1.0
+						morph_weights = [  ]
+					},
+				]
+			},
+			{
+				_class = "Skeleton"
+				children = 
+				[
+					{
+						_class = "Bone"
+						name = "bip01"
+						children = 
+						[
+							{
+								_class = "Bone"
+								name = "bip01_pelvis"
+								children = 
+								[
+									{
+										_class = "Bone"
+										name = "bip01_spine"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "bip01_spine1"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "bip01_neck"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "bip01_l_clavicle"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "bip01_l_upperarm"
+																		children = 
+																		[
+																			{
+																				_class = "Bone"
+																				name = "bip01_l_forearm"
+																				children = 
+																				[
+																					{
+																						_class = "Bone"
+																						name = "bip01_l_hand"
+																						children = 
+																						[
+																							{
+																								_class = "Bone"
+																								name = "bip01_l_finger0"
+																								children = 
+																								[
+																									{
+																										_class = "Bone"
+																										name = "bip01_l_finger01"
+																										children = 
+																										[
+																											{
+																												_class = "Bone"
+																												name = "bip01_l_finger02"
+																												origin = [ -1.031528, 0.0, -0.000003 ]
+																												angles = [ 0.000001, 4.300219, 0.0 ]
+																												do_not_discard = true
+																											},
+																										]
+																										origin = [ -1.815093, -0.0, 0.000001 ]
+																										angles = [ 0.000002, -5.885022, -0.0 ]
+																										do_not_discard = true
+																									},
+																								]
+																								origin = [ -0.756623, 0.677739, -1.164278 ]
+																								angles = [ -24.545515, -14.724324, 112.962875 ]
+																								do_not_discard = true
+																							},
+																							{
+																								_class = "Bone"
+																								name = "bip01_l_finger1"
+																								children = 
+																								[
+																									{
+																										_class = "Bone"
+																										name = "bip01_l_finger11"
+																										children = 
+																										[
+																											{
+																												_class = "Bone"
+																												name = "bip01_l_finger12"
+																												origin = [ -0.705669, 0.0, 0.0 ]
+																												angles = [ 0.000003, -52.831059, 0.000004 ]
+																												do_not_discard = true
+																											},
+																										]
+																										origin = [ -1.161263, 0.000001, 0.000002 ]
+																										angles = [ -0.000002, -42.759567, 0.000006 ]
+																										do_not_discard = true
+																									},
+																								]
+																								origin = [ -3.56026, 0.118227, -1.221193 ]
+																								angles = [ 14.359118, -11.308583, -2.875618 ]
+																								do_not_discard = true
+																							},
+																							{
+																								_class = "Bone"
+																								name = "bip01_l_finger2"
+																								children = 
+																								[
+																									{
+																										_class = "Bone"
+																										name = "bip01_l_finger21"
+																										children = 
+																										[
+																											{
+																												_class = "Bone"
+																												name = "bip01_l_finger22"
+																												origin = [ -0.945207, -0.000004, 0.0 ]
+																												angles = [ -0.000001, -4.361987, 0.000007 ]
+																												do_not_discard = true
+																											},
+																										]
+																										origin = [ -1.259425, 0.000001, -0.000004 ]
+																										angles = [ -0.000003, -76.556686, 0.000006 ]
+																										do_not_discard = true
+																									},
+																								]
+																								origin = [ -3.535857, -0.001416, -0.449382 ]
+																								angles = [ 5.704304, -26.380806, -13.520997 ]
+																								do_not_discard = true
+																							},
+																							{
+																								_class = "Bone"
+																								name = "bip01_l_finger3"
+																								children = 
+																								[
+																									{
+																										_class = "Bone"
+																										name = "bip01_l_finger31"
+																										children = 
+																										[
+																											{
+																												_class = "Bone"
+																												name = "bip01_l_finger32"
+																												origin = [ -0.855787, -0.000004, -0.000005 ]
+																												angles = [ -0.000002, 22.220228, 0.000005 ]
+																												do_not_discard = true
+																											},
+																										]
+																										origin = [ -1.267427, 0.0, 0.0 ]
+																										angles = [ 0.0, -67.85173, 0.000002 ]
+																										do_not_discard = true
+																									},
+																								]
+																								origin = [ -3.379943, -0.050747, 0.292729 ]
+																								angles = [ -2.275967, -49.323299, -19.141031 ]
+																								do_not_discard = true
+																							},
+																							{
+																								_class = "Bone"
+																								name = "bip01_l_finger4"
+																								children = 
+																								[
+																									{
+																										_class = "Bone"
+																										name = "bip01_l_finger41"
+																										children = 
+																										[
+																											{
+																												_class = "Bone"
+																												name = "bip01_l_finger42"
+																												origin = [ -0.703493, 0.0, 0.000001 ]
+																												angles = [ -0.0, 7.998951, -0.000001 ]
+																												do_not_discard = true
+																											},
+																										]
+																										origin = [ -0.753934, -0.000002, 0.000003 ]
+																										angles = [ 0.000001, -30.377949, 0.000007 ]
+																										do_not_discard = true
+																									},
+																								]
+																								origin = [ -3.272118, 0.110096, 1.013741 ]
+																								angles = [ -17.082851, -75.632317, -14.836617 ]
+																								do_not_discard = true
+																							},
+																						]
+																						origin = [ -8.503075, -0.000003, 0.000003 ]
+																						angles = [ -3.828439, -28.909098, 170.224609 ]
+																						do_not_discard = true
+																					},
+																				]
+																				origin = [ -9.96117, 0.000001, 0.000002 ]
+																				angles = [ 0.000002, 56.486988, 0.000002 ]
+																				do_not_discard = true
+																			},
+																			{
+																				_class = "Bone"
+																				name = "bip01_l_foretwist"
+																				children = 
+																				[
+																					{
+																						_class = "Bone"
+																						name = "bip01_l_foretwist1"
+																						children = 
+																						[
+																							{
+																								_class = "Bone"
+																								name = "bip01_l_foretwist2"
+																								children = 
+																								[
+																									{
+																										_class = "Bone"
+																										name = "bip01_l_foretwist3"
+																										children = 
+																										[
+																											{
+																												_class = "Bone"
+																												name = "bip01_l_foretwist4"
+																												children = 
+																												[
+																													{
+																														_class = "Bone"
+																														name = "bip01_l_foretwist5"
+																														origin = [ -1.417178, -0.000001, -0.000003 ]
+																														angles = [ 0.000001, 0.000006, -14.342622 ]
+																														do_not_discard = true
+																													},
+																												]
+																												origin = [ -1.417179, -0.000001, 0.000002 ]
+																												angles = [ 0.000007, 0.000003, -14.342622 ]
+																												do_not_discard = true
+																											},
+																										]
+																										origin = [ -1.417179, -0.000002, -0.000004 ]
+																										angles = [ 0.000003, 0.000005, -14.342619 ]
+																										do_not_discard = true
+																									},
+																								]
+																								origin = [ -1.417179, 0.0, 0.0 ]
+																								angles = [ 0.000004, 0.0, -14.342621 ]
+																								do_not_discard = true
+																							},
+																						]
+																						origin = [ -1.41718, -0.000002, 0.000003 ]
+																						angles = [ 0.000005, -0.0, -14.342619 ]
+																						do_not_discard = true
+																					},
+																				]
+																				origin = [ -9.96117, 0.000002, 0.000002 ]
+																				angles = [ 0.000003, 56.486988, -14.342621 ]
+																				do_not_discard = true
+																			},
+																		]
+																		origin = [ -5.853649, 0.0, -0.000001 ]
+																		angles = [ -21.993954, 109.168678, -77.900429 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ -0.000002, 0.002084, 1.508082 ]
+																angles = [ 80.499825, 90.045647, -89.999985 ]
+																do_not_discard = true
+															},
+															{
+																_class = "Bone"
+																name = "bip01_r_clavicle"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "bip01_r_upperarm"
+																		children = 
+																		[
+																			{
+																				_class = "Bone"
+																				name = "bip01_r_forearm"
+																				children = 
+																				[
+																					{
+																						_class = "Bone"
+																						name = "bip01_r_hand"
+																						children = 
+																						[
+																							{
+																								_class = "Bone"
+																								name = "bip01_r_finger0"
+																								children = 
+																								[
+																									{
+																										_class = "Bone"
+																										name = "bip01_r_finger01"
+																										children = 
+																										[
+																											{
+																												_class = "Bone"
+																												name = "bip01_r_finger02"
+																												origin = [ -1.031527, -0.000002, -0.000001 ]
+																												angles = [ 0.000001, -41.778358, 0.000007 ]
+																												do_not_discard = true
+																											},
+																										]
+																										origin = [ -1.815093, 0.000001, 0.0 ]
+																										angles = [ -0.000007, -27.591753, 0.000007 ]
+																										do_not_discard = true
+																									},
+																								]
+																								origin = [ -0.756621, 0.677737, 1.16428 ]
+																								angles = [ 8.9873, -25.556086, -101.209045 ]
+																								do_not_discard = true
+																							},
+																							{
+																								_class = "Bone"
+																								name = "bip01_r_finger1"
+																								children = 
+																								[
+																									{
+																										_class = "Bone"
+																										name = "bip01_r_finger11"
+																										children = 
+																										[
+																											{
+																												_class = "Bone"
+																												name = "bip01_r_finger12"
+																												origin = [ -0.705671, 0.0, 0.0 ]
+																												angles = [ -0.000002, -35.422607, 0.000002 ]
+																												do_not_discard = true
+																											},
+																										]
+																										origin = [ -1.161263, 0.0, 0.0 ]
+																										angles = [ -0.000002, -64.360451, 0.0 ]
+																										do_not_discard = true
+																									},
+																								]
+																								origin = [ -3.560262, 0.118227, 1.221195 ]
+																								angles = [ 4.651385, -3.689273, -2.118227 ]
+																								do_not_discard = true
+																							},
+																							{
+																								_class = "Bone"
+																								name = "bip01_r_finger2"
+																								children = 
+																								[
+																									{
+																										_class = "Bone"
+																										name = "bip01_r_finger21"
+																										children = 
+																										[
+																											{
+																												_class = "Bone"
+																												name = "bip01_r_finger22"
+																												origin = [ -0.945209, 0.0, -0.0 ]
+																												angles = [ 0.000001, -49.283592, 0.000001 ]
+																												do_not_discard = true
+																											},
+																										]
+																										origin = [ -1.259424, 0.0, 0.0 ]
+																										angles = [ -0.000002, -86.777748, 0.000002 ]
+																										do_not_discard = true
+																									},
+																								]
+																								origin = [ -3.535861, -0.001416, 0.44938 ]
+																								angles = [ -12.472149, -63.449795, 9.292571 ]
+																								do_not_discard = true
+																							},
+																							{
+																								_class = "Bone"
+																								name = "bip01_r_finger3"
+																								children = 
+																								[
+																									{
+																										_class = "Bone"
+																										name = "bip01_r_finger31"
+																										children = 
+																										[
+																											{
+																												_class = "Bone"
+																												name = "bip01_r_finger32"
+																												origin = [ -0.855787, 0.000001, 0.000001 ]
+																												angles = [ -0.000002, -34.508511, 0.000003 ]
+																												do_not_discard = true
+																											},
+																										]
+																										origin = [ -1.267428, -0.000006, -0.000003 ]
+																										angles = [ -0.000002, -83.068642, 0.000005 ]
+																										do_not_discard = true
+																									},
+																								]
+																								origin = [ -3.379942, -0.050747, -0.292728 ]
+																								angles = [ -8.542058, -71.209427, 16.863697 ]
+																								do_not_discard = true
+																							},
+																							{
+																								_class = "Bone"
+																								name = "bip01_r_finger4"
+																								children = 
+																								[
+																									{
+																										_class = "Bone"
+																										name = "bip01_r_finger41"
+																										children = 
+																										[
+																											{
+																												_class = "Bone"
+																												name = "bip01_r_finger42"
+																												origin = [ -0.703493, 0.0, 0.0 ]
+																												angles = [ -0.000004, -62.660614, 0.000001 ]
+																												do_not_discard = true
+																											},
+																										]
+																										origin = [ -0.753934, 0.000002, 0.000001 ]
+																										angles = [ -0.000006, -36.862854, -0.000002 ]
+																										do_not_discard = true
+																									},
+																								]
+																								origin = [ -3.272116, 0.110097, -1.013746 ]
+																								angles = [ -5.547323, -83.210838, 23.639206 ]
+																								do_not_discard = true
+																							},
+																						]
+																						origin = [ -8.503071, 0.000003, -0.000004 ]
+																						angles = [ -3.480144, -78.575317, 157.426285 ]
+																						do_not_discard = true
+																					},
+																				]
+																				origin = [ -9.961165, -0.000005, 0.0 ]
+																				angles = [ 0.0, 119.250107, -0.0 ]
+																				do_not_discard = true
+																			},
+																			{
+																				_class = "Bone"
+																				name = "bip01_r_foretwist"
+																				children = 
+																				[
+																					{
+																						_class = "Bone"
+																						name = "bip01_r_foretwist1"
+																						children = 
+																						[
+																							{
+																								_class = "Bone"
+																								name = "bip01_r_foretwist2"
+																								children = 
+																								[
+																									{
+																										_class = "Bone"
+																										name = "bip01_r_foretwist3"
+																										children = 
+																										[
+																											{
+																												_class = "Bone"
+																												name = "bip01_r_foretwist4"
+																												children = 
+																												[
+																													{
+																														_class = "Bone"
+																														name = "bip01_r_foretwist5"
+																														origin = [ -1.417178, -0.000001, -0.000001 ]
+																														angles = [ -0.0, 0.000001, 11.701688 ]
+																														do_not_discard = true
+																													},
+																												]
+																												origin = [ -1.417179, 0.0, -0.000001 ]
+																												angles = [ -0.000002, 0.0, 11.701689 ]
+																												do_not_discard = true
+																											},
+																										]
+																										origin = [ -1.417175, 0.000002, -0.0 ]
+																										angles = [ -0.000003, 0.0, 11.70169 ]
+																										do_not_discard = true
+																									},
+																								]
+																								origin = [ -1.417182, -0.000002, -0.0 ]
+																								angles = [ -0.000003, 0.0, 11.701682 ]
+																								do_not_discard = true
+																							},
+																						]
+																						origin = [ -1.417181, -0.000001, -0.000001 ]
+																						angles = [ -0.000001, -0.0, 11.701691 ]
+																						do_not_discard = true
+																					},
+																				]
+																				origin = [ -9.961166, -0.000004, 0.000001 ]
+																				angles = [ 0.0, 119.250122, 11.701688 ]
+																				do_not_discard = true
+																			},
+																		]
+																		origin = [ -5.853647, 0.000005, 0.0 ]
+																		angles = [ 20.612673, 104.242981, 12.741093 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ 0.0, 0.002092, -1.508082 ]
+																angles = [ -49.941669, 90.045601, 90.000023 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ -9.087381, -0.002087, 0.0 ]
+														angles = [ 0.0, -0.0, 0.000002 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ -9.087375, -0.006882, 0.002236 ]
+												angles = [ -0.02819, 0.004469, -17.997068 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ -4.019419, -0.007237, 0.000006 ]
+										angles = [ 0.000057, -0.045607, -0.000229 ]
+										do_not_discard = true
+									},
+								]
+								origin = [ 0.0, -0.0, 0.0 ]
+								angles = [ 89.999985, 89.999931, 0.0 ]
+								do_not_discard = true
+							},
+						]
+						origin = [ 0.0, 0.000001, -28.585142 ]
+						angles = [ -0.0, 89.999924, 0.0 ]
+						do_not_discard = true
+					},
+					{
+						_class = "Bone"
+						name = "g36_magazine"
+						children = 
+						[
+							{
+								_class = "Bone"
+								name = "g36_bullets"
+								children = 
+								[
+									{
+										_class = "Bone"
+										name = "gg54f4555555"
+										origin = [ -0.003932, -1.734488, -1.850621 ]
+										angles = [ -0.0, 0.0, 179.999985 ]
+										do_not_discard = true
+									},
+								]
+								origin = [ 0.001889, 2.779016, 0.205761 ]
+								angles = [ -0.0, 0.0, 0.0 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "dfsdfdsfsdf43f4343"
+								origin = [ -0.003932, -1.734498, -1.850619 ]
+								angles = [ -0.0, 0.0, 179.999985 ]
+								do_not_discard = true
+							},
+						]
+						origin = [ 2.859808, -10.189645, -5.618878 ]
+						angles = [ 0.0, -179.999969, 89.999985 ]
+						do_not_discard = true
+					},
+					{
+						_class = "Bone"
+						name = "g36_body"
+						children = 
+						[
+							{
+								_class = "Bone"
+								name = "ejection"
+								origin = [ -0.225695, 0.070904, -1.307013 ]
+								angles = [ 11.580397, -21.942219, -94.623451 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "muzzle"
+								origin = [ 0.084486, 0.019442, -12.328476 ]
+								angles = [ -89.999985, -90.000038, 0.0 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "f3f3f34f34f34"
+								origin = [ -0.06419, 1.721038, -0.317245 ]
+								angles = [ -0.0, 0.0, -179.999969 ]
+								do_not_discard = true
+							},
+						]
+						origin = [ 2.864125, -10.189644, -5.618879 ]
+						angles = [ 0.0, -179.999969, 89.999985 ]
+						do_not_discard = true
+					},
+					{
+						_class = "Bone"
+						name = "g36_bolt"
+						children = 
+						[
+							{
+								_class = "Bone"
+								name = "32r23r2234t34f34"
+								origin = [ -0.511795, 4.025948, -1.429989 ]
+								angles = [ -0.0, 0.0, 179.999985 ]
+								do_not_discard = true
+							},
+						]
+						origin = [ 2.864125, -10.189645, -7.803775 ]
+						angles = [ 0.0, -179.999969, 89.999985 ]
+						do_not_discard = true
+					},
+					{
+						_class = "Bone"
+						name = "g36_silencer"
+						children = 
+						[
+							{
+								_class = "Bone"
+								name = "43fswfsdfdsf"
+								origin = [ 0.000395, 1.299265, -14.319414 ]
+								angles = [ -0.0, 0.0, 179.999985 ]
+								do_not_discard = true
+							},
+						]
+						origin = [ 2.864125, -10.075978, -7.932572 ]
+						angles = [ 0.0, -179.999969, 89.999985 ]
+						do_not_discard = true
+					},
+					{
+						_class = "Bone"
+						name = "g36_trigger"
+						children = 
+						[
+							{
+								_class = "Bone"
+								name = "g54g54gfdgfdgd"
+								origin = [ -0.064191, 0.284539, 1.147788 ]
+								angles = [ -0.0, 0.0, 179.999985 ]
+								do_not_discard = true
+							},
+						]
+						origin = [ 2.864125, -10.189645, -5.618879 ]
+						angles = [ 0.0, -179.999969, 89.999985 ]
+						do_not_discard = true
+					},
+					{
+						_class = "Bone"
+						name = "g36_mag_release"
+						children = 
+						[
+							{
+								_class = "Bone"
+								name = "grgffdewq3453445"
+								origin = [ -0.06419, -0.698612, -0.057129 ]
+								angles = [ -0.0, 0.0, 179.999985 ]
+								do_not_discard = true
+							},
+						]
+						origin = [ 2.864125, -10.189644, -5.618879 ]
+						angles = [ 0.0, -179.999969, 89.999985 ]
+						do_not_discard = true
+					},
+					{
+						_class = "Bone"
+						name = "g36_charging_handle"
+						children = 
+						[
+							{
+								_class = "Bone"
+								name = "b545t54v45fc"
+								origin = [ -0.001016, 5.058541, -4.112396 ]
+								angles = [ -0.0, 0.0, 179.999985 ]
+								do_not_discard = true
+							},
+						]
+						origin = [ 2.864125, -10.189642, -7.803773 ]
+						angles = [ 0.0, -179.999969, 89.999985 ]
+						do_not_discard = true
+					},
+					{
+						_class = "Bone"
+						name = "g36_bullet"
+						children = 
+						[
+							{
+								_class = "Bone"
+								name = "fdgfdgewgfvdfvcx444"
+								origin = [ 0.165465, 1.33721, -1.627975 ]
+								angles = [ -0.0, 0.0, 179.999985 ]
+								do_not_discard = true
+							},
+						]
+						origin = [ 2.859808, -10.189644, -5.618878 ]
+						angles = [ 0.0, -179.999969, 89.999985 ]
+						do_not_discard = true
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "v_hands_is_unused.vmat"
+								to = "materials/dev/primary_black.vmat"
+							},
+							{
+								from = "silencer_is_unused.vmat"
+								to = "materials/dev/debug_nav_translucent.vmat"
+							},
+							{
+								from = "stock_is_unused.vmat"
+								to = "models/weapons/g36/textures/g36_stock.vmat"
+							},
+							{
+								from = "frame_is_unused.vmat"
+								to = "models/weapons/g36/textures/g36_frame.vmat"
+							},
+							{
+								from = "c_rail_no_acog_is_unused.vmat"
+								to = "models/weapons/g36/textures/g36_acog.vmat"
+							},
+							{
+								from = "c_grip_no_rails_is_unused.vmat"
+								to = "models/weapons/g36/textures/g36_rails.vmat"
+							},
+							{
+								from = "mag_is_unused.vmat"
+								to = "models/weapons/g36/textures/g36_mag.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "1"
+						parent_bone = "muzzle"
+						relative_origin = [ 0.0, 0.0, 1.8 ]
+						relative_angles = [ -0.000005, 180.0, 180.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "2"
+						parent_bone = "ejection"
+						relative_origin = [ 0.0, 0.0, 1.8 ]
+						relative_angles = [ -0.000008, -180.0, -180.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "v_rif_g362_bg_studio_lod0"
+						filename = "models/weapons/g36/v_rif_g362_refs/mesh/v_rif_g362_bg_studio_lod0.dmx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "idle"
+						activity_name = "ACT_VM_IDLE_SILENCED"
+						activity_weight = 1
+						weight_list_name = "bonemask_default"
+						fade_in_time = 100.0
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/g36/v_rif_g362_refs/anim/_idle_0.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "shoot1"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_MUZZLEFLASH0"
+								event_frame = 0
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 2
+								event_keys = 
+								{
+									name = "G36.Boltback"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CLIENT_EFFECT_ATTACH"
+								event_frame = 0
+								event_keys = null
+							},
+						]
+						activity_name = "ACT_VM_PRIMARYATTACK_SILENCED"
+						activity_weight = 1
+						weight_list_name = "bonemask_default"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/g36/v_rif_g362_refs/anim/_shoot1_1.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "shoot2"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_MUZZLEFLASH0"
+								event_frame = 0
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 2
+								event_keys = 
+								{
+									name = "G36.Boltback"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CLIENT_EFFECT_ATTACH"
+								event_frame = 0
+								event_keys = null
+							},
+						]
+						activity_name = "ACT_VM_PRIMARYATTACK_SILENCED"
+						activity_weight = 1
+						weight_list_name = "bonemask_default"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/g36/v_rif_g362_refs/anim/_shoot2_2.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "shoot3"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_MUZZLEFLASH0"
+								event_frame = 0
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 2
+								event_keys = 
+								{
+									name = "G36.Boltback"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CLIENT_EFFECT_ATTACH"
+								event_frame = 0
+								event_keys = null
+							},
+						]
+						activity_name = "ACT_VM_PRIMARYATTACK_SILENCED"
+						activity_weight = 1
+						weight_list_name = "bonemask_default"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/g36/v_rif_g362_refs/anim/_shoot3_3.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "reload"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 1
+								event_keys = 
+								{
+									name = "G36.Cloth"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 16
+								event_keys = 
+								{
+									name = "G36.MagOut"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 45
+								event_keys = 
+								{
+									name = "G36.MagFiddle"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 61
+								event_keys = 
+								{
+									name = "G36.MagSlap"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 81
+								event_keys = 
+								{
+									name = "G36.BoltPull"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 89
+								event_keys = 
+								{
+									name = "G36.BoltBack"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 110
+								event_keys = 
+								{
+									name = "G36.Cloth"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_RELOAD_SILENCED"
+						activity_weight = 1
+						weight_list_name = "bonemask_default"
+						fade_in_time = 0.2
+						fade_out_time = 100.0
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/g36/v_rif_g362_refs/anim/_reload_4.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 34.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "draw"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 1
+								event_keys = 
+								{
+									name = "G36.PocketRussle"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 15
+								event_keys = 
+								{
+									name = "G36.Safety"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 40
+								event_keys = 
+								{
+									name = "G36.Cloth"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_DRAW_SILENCED"
+						activity_weight = 1
+						weight_list_name = "bonemask_default"
+						fade_in_time = 0.2
+						fade_out_time = 100.0
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/g36/v_rif_g362_refs/anim/_draw_5.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 36.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "add_silencer"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 1
+								event_keys = 
+								{
+									name = "G36.Cloth"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 34
+								event_keys = 
+								{
+									name = "G36.PlaceSilencer"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 46
+								event_keys = 
+								{
+									name = "G36.SpinSilencer"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 61
+								event_keys = 
+								{
+									name = "G36.TightenSilencer"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 95
+								event_keys = 
+								{
+									name = "G36.Cloth"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_ATTACH_SILENCER"
+						activity_weight = 1
+						weight_list_name = "bonemask_default"
+						fade_in_time = 0.2
+						fade_out_time = 100.0
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/g36/v_rif_g362_refs/anim/_add_silencer_6.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 34.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "idle_unsil"
+						activity_name = "ACT_VM_IDLE"
+						activity_weight = 1
+						weight_list_name = "bonemask_default"
+						fade_in_time = 100.0
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/g36/v_rif_g362_refs/anim/_idle_unsil_7.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "shoot1_unsil"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_MUZZLEFLASH0"
+								event_frame = 0
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 2
+								event_keys = 
+								{
+									name = "G36.Boltback"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CLIENT_EFFECT_ATTACH"
+								event_frame = 0
+								event_keys = null
+							},
+						]
+						activity_name = "ACT_VM_PRIMARYATTACK"
+						activity_weight = 1
+						weight_list_name = "bonemask_default"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/g36/v_rif_g362_refs/anim/_shoot1_unsil_8.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "shoot2_unsil"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_MUZZLEFLASH0"
+								event_frame = 0
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 2
+								event_keys = 
+								{
+									name = "G36.Boltback"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CLIENT_EFFECT_ATTACH"
+								event_frame = 0
+								event_keys = null
+							},
+						]
+						activity_name = "ACT_VM_PRIMARYATTACK"
+						activity_weight = 1
+						weight_list_name = "bonemask_default"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/g36/v_rif_g362_refs/anim/_shoot2_unsil_9.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "shoot3_unsil"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_MUZZLEFLASH0"
+								event_frame = 0
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 2
+								event_keys = 
+								{
+									name = "G36.Boltback"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CLIENT_EFFECT_ATTACH"
+								event_frame = 0
+								event_keys = null
+							},
+						]
+						activity_name = "ACT_VM_PRIMARYATTACK"
+						activity_weight = 1
+						weight_list_name = "bonemask_default"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/g36/v_rif_g362_refs/anim/_shoot3_unsil_10.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "reload_unsil"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 1
+								event_keys = 
+								{
+									name = "G36.Cloth"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 16
+								event_keys = 
+								{
+									name = "G36.MagOut"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 45
+								event_keys = 
+								{
+									name = "G36.MagFiddle"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 61
+								event_keys = 
+								{
+									name = "G36.MagSlap"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 81
+								event_keys = 
+								{
+									name = "G36.BoltPull"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 89
+								event_keys = 
+								{
+									name = "G36.BoltBack"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 110
+								event_keys = 
+								{
+									name = "G36.Cloth"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_RELOAD"
+						activity_weight = 1
+						weight_list_name = "bonemask_default"
+						fade_in_time = 0.2
+						fade_out_time = 100.0
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/g36/v_rif_g362_refs/anim/_reload_unsil_11.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 34.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "draw_unsil"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 1
+								event_keys = 
+								{
+									name = "G36.PocketRussle"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 15
+								event_keys = 
+								{
+									name = "G36.Safety"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 40
+								event_keys = 
+								{
+									name = "G36.Cloth"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_DRAW"
+						activity_weight = 1
+						weight_list_name = "bonemask_default"
+						fade_in_time = 0.2
+						fade_out_time = 100.0
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/g36/v_rif_g362_refs/anim/_draw_unsil_12.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 36.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "detach_silencer"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 1
+								event_keys = 
+								{
+									name = "G36.Cloth"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 23
+								event_keys = 
+								{
+									name = "G36.SpinSilencer"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 36
+								event_keys = 
+								{
+									name = "G36.TightenSilencer"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 60
+								event_keys = 
+								{
+									name = "G36.Cloth"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_DETACH_SILENCER"
+						activity_weight = 1
+						weight_list_name = "bonemask_default"
+						fade_in_time = 0.2
+						fade_out_time = 100.0
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/g36/v_rif_g362_refs/anim/_detach_silencer_13.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 34.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "@idle_0"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/g36/v_rif_g362_refs/anim/_idle_0.dmx"
+						start_frame = 0
+						end_frame = 30
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "@shoot1_1"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/g36/v_rif_g362_refs/anim/_shoot1_1.dmx"
+						start_frame = 0
+						end_frame = 30
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "@shoot2_2"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/g36/v_rif_g362_refs/anim/_shoot2_2.dmx"
+						start_frame = 0
+						end_frame = 30
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "@shoot3_3"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/g36/v_rif_g362_refs/anim/_shoot3_3.dmx"
+						start_frame = 0
+						end_frame = 30
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "@reload_4"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/g36/v_rif_g362_refs/anim/_reload_4.dmx"
+						start_frame = 0
+						end_frame = 128
+						framerate = 34.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "@draw_5"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/g36/v_rif_g362_refs/anim/_draw_5.dmx"
+						start_frame = 0
+						end_frame = 53
+						framerate = 36.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "@add_silencer_6"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/g36/v_rif_g362_refs/anim/_add_silencer_6.dmx"
+						start_frame = 0
+						end_frame = 110
+						framerate = 34.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "@idle_unsil_7"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/g36/v_rif_g362_refs/anim/_idle_unsil_7.dmx"
+						start_frame = 0
+						end_frame = 30
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "@shoot1_unsil_8"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/g36/v_rif_g362_refs/anim/_shoot1_unsil_8.dmx"
+						start_frame = 0
+						end_frame = 30
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "@shoot2_unsil_9"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/g36/v_rif_g362_refs/anim/_shoot2_unsil_9.dmx"
+						start_frame = 0
+						end_frame = 30
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "@shoot3_unsil_10"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/g36/v_rif_g362_refs/anim/_shoot3_unsil_10.dmx"
+						start_frame = 0
+						end_frame = 30
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "@reload_unsil_11"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/g36/v_rif_g362_refs/anim/_reload_unsil_11.dmx"
+						start_frame = 0
+						end_frame = 128
+						framerate = 34.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "@draw_unsil_12"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/g36/v_rif_g362_refs/anim/_draw_unsil_12.dmx"
+						start_frame = 0
+						end_frame = 53
+						framerate = 36.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "@detach_silencer_13"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/g36/v_rif_g362_refs/anim/_detach_silencer_13.dmx"
+						start_frame = 0
+						end_frame = 76
+						framerate = 34.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = "models/weapons/g36/css_v_smg_g36.vanmgrph"
+	}
+}

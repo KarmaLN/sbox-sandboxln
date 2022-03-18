@@ -1,0 +1,911 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "BoneMarkupList"
+				bone_cull_type = "None"
+			},
+			{
+				_class = "WeightListList"
+				children = 
+				[
+					{
+						_class = "WeightList"
+						name = "bonemask_default"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "dummy01"
+								weight = 1.0
+							},
+							{
+								bone = "dummy02"
+								weight = 1.0
+							},
+							{
+								bone = "smdimport"
+								weight = 1.0
+							},
+							{
+								bone = "smdimport01"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = -1.0
+						morph_weights = [  ]
+					},
+				]
+			},
+			{
+				_class = "Skeleton"
+				children = 
+				[
+					{
+						_class = "Bone"
+						name = "dummy01"
+						children = 
+						[
+							{
+								_class = "Bone"
+								name = "right_u_arm"
+								children = 
+								[
+									{
+										_class = "Bone"
+										name = "right_l_arm"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "right_hand"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "bone22"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "bone23"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "bone24"
+																		origin = [ 1.066026, 0.0, 0.0 ]
+																		angles = [ -6.5284, 10.613016, -0.753725 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ 1.320667, 0.0, 0.000001 ]
+																angles = [ -8.64502, 0.817497, 11.040496 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ 1.369792, 0.361444, 1.237273 ]
+														angles = [ -15.668219, 15.743781, 74.454369 ]
+														do_not_discard = true
+													},
+													{
+														_class = "Bone"
+														name = "bone06"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "bone07"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "bone08"
+																		origin = [ 0.743917, -0.000001, 0.000002 ]
+																		angles = [ 61.744694, -4.614088, 6.80943 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ 1.209881, -0.000001, -0.0 ]
+																angles = [ 12.105105, -1.066331, 0.225917 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ 3.525409, -0.419244, 0.945132 ]
+														angles = [ 11.1234, 0.232563, 108.448212 ]
+														do_not_discard = true
+													},
+													{
+														_class = "Bone"
+														name = "bone10"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "bone11"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "bone12"
+																		origin = [ 0.906347, 0.000003, 0.000002 ]
+																		angles = [ -11.658198, 1.590247, -0.81767 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ 1.390921, -0.000001, 0.000001 ]
+																angles = [ 82.651001, -12.897552, -12.736006 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ 3.414726, -0.449903, 0.223652 ]
+														angles = [ 3.197442, 11.927547, 115.040306 ]
+														do_not_discard = true
+													},
+													{
+														_class = "Bone"
+														name = "bone14"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "bone15"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "bone16"
+																		origin = [ 0.919428, 0.000002, 0.0 ]
+																		angles = [ -5.982652, -1.05527, -5.831161 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ 1.262953, 0.000001, -0.000002 ]
+																angles = [ 78.810402, 28.660643, 26.153708 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ 3.289555, -0.311001, -0.505977 ]
+														angles = [ -5.462177, 28.124435, 116.746758 ]
+														do_not_discard = true
+													},
+													{
+														_class = "Bone"
+														name = "bone18"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "bone19"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "bone20"
+																		origin = [ 0.708996, 0.000001, 0.0 ]
+																		angles = [ -26.134001, 2.533621, -2.603408 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ 0.817883, -0.000001, -0.000002 ]
+																angles = [ 61.024818, 5.622727, 6.90226 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ 3.167418, -0.097637, -1.197366 ]
+														angles = [ -29.091356, 53.325291, 111.528877 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 8.136636, 0.000008, 0.000004 ]
+												angles = [ -22.051538, -3.692596, -90.039566 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ 8.403366, 0.0, 0.000001 ]
+										angles = [ 72.927902, 0.000009, 0.000004 ]
+										do_not_discard = true
+									},
+								]
+								origin = [ -0.0, 0.0, -0.0 ]
+								angles = [ 2.093874, -133.707443, 88.490051 ]
+								do_not_discard = true
+							},
+						]
+						origin = [ -2.569698, -0.963802, -5.417533 ]
+						angles = [ -70.655663, 48.8419, -34.013058 ]
+						do_not_discard = true
+					},
+					{
+						_class = "Bone"
+						name = "dummy02"
+						children = 
+						[
+							{
+								_class = "Bone"
+								name = "left_u_arm"
+								children = 
+								[
+									{
+										_class = "Bone"
+										name = "left_l_arm"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "left_hand"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "left1"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "left2"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "left3"
+																		origin = [ 1.066024, -0.0, 0.0 ]
+																		angles = [ -2.897559, 59.924568, -5.900897 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ 1.320668, 0.000002, 0.0 ]
+																angles = [ -3.724857, 21.644228, -13.493793 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ 1.369792, -0.361442, 1.237272 ]
+														angles = [ -3.978673, -28.813925, -49.213455 ]
+														do_not_discard = true
+													},
+													{
+														_class = "Bone"
+														name = "left10"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "left11"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "left12"
+																		origin = [ 0.919429, 0.000001, 0.000001 ]
+																		angles = [ 38.656021, 2.40831, 3.695638 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ 1.262953, 0.0, -0.000001 ]
+																angles = [ 84.928764, -107.602547, -104.608177 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ 3.289559, 0.311002, -0.505977 ]
+														angles = [ 5.864338, -67.359077, -93.021576 ]
+														do_not_discard = true
+													},
+													{
+														_class = "Bone"
+														name = "left13"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "left14"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "left15"
+																		origin = [ 0.708995, 0.000002, 0.0 ]
+																		angles = [ 15.592702, -3.790805, 2.298478 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ 0.817882, -0.000001, -0.000002 ]
+																angles = [ 85.925537, -124.625259, -124.9795 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ 3.16742, 0.097639, -1.197364 ]
+														angles = [ -2.032741, -60.716625, -94.04277 ]
+														do_not_discard = true
+													},
+													{
+														_class = "Bone"
+														name = "left7"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "left8"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "left9"
+																		origin = [ 0.906348, 0.0, 0.000001 ]
+																		angles = [ 30.527866, -2.610969, -0.347325 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ 1.390923, 0.000003, -0.000001 ]
+																angles = [ 83.819633, -178.960312, -179.705566 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ 3.414729, 0.449903, 0.223655 ]
+														angles = [ 9.458903, -57.736614, -90.70787 ]
+														do_not_discard = true
+													},
+													{
+														_class = "Bone"
+														name = "left4"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "left5"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "left6"
+																		origin = [ 0.74392, 0.0, 0.0 ]
+																		angles = [ 58.445015, 5.319512, 0.094882 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ 1.20988, -0.000002, 0.0 ]
+																angles = [ 22.026167, 1.066274, -0.225918 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ 3.525411, 0.419244, 0.945132 ]
+														angles = [ -6.989455, -8.015913, -90.040039 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 8.136635, -0.000006, 0.000003 ]
+												angles = [ -44.043396, -5.799995, 146.005188 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ 8.403364, 0.0, -0.000001 ]
+										angles = [ 63.303677, -180.0, 180.0 ]
+										do_not_discard = true
+									},
+								]
+								origin = [ 0.0, 0.0, -0.0 ]
+								angles = [ 2.872008, -20.612389, -85.594734 ]
+								do_not_discard = true
+							},
+						]
+						origin = [ 2.12159, 5.578215, -3.854891 ]
+						angles = [ 50.520725, 0.0, 0.0 ]
+						do_not_discard = true
+					},
+					{
+						_class = "Bone"
+						name = "smdimport"
+						children = 
+						[
+							{
+								_class = "Bone"
+								name = "object04"
+								origin = [ 6.793206, -2.506764, -3.403738 ]
+								angles = [ 0.0, -0.0, 0.000057 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "object02"
+								origin = [ -2.244339, -0.095387, 0.828866 ]
+								angles = [ 0.0, -0.0, 0.000057 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "object01"
+								origin = [ 3.735909, -3.731334, 5.152444 ]
+								angles = [ -30.861668, -98.227516, 179.460968 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "object05"
+								origin = [ -4.853263, 0.083837, 2.02094 ]
+								angles = [ 0.0, -0.0, 0.000057 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "kurwa_mac"
+								origin = [ 0.000001, -0.000001, 0.0 ]
+								angles = [ 0.0, -0.0, -0.0 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "flash"
+								origin = [ -22.022886, 0.444273, -0.412449 ]
+								angles = [ -1.398176, 177.366226, -179.926956 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "naboj"
+								origin = [ -4.149767, 0.555901, -1.426081 ]
+								angles = [ 6.76318, 107.38739, -176.29715 ]
+								do_not_discard = true
+							},
+						]
+						origin = [ 2.049, -7.075089, -3.848233 ]
+						angles = [ 1.40008, 89.000214, -179.991257 ]
+						do_not_discard = true
+					},
+					{
+						_class = "Bone"
+						name = "smdimport01"
+						origin = [ 2.304693, -5.737257, -3.770671 ]
+						angles = [ 0.999983, -0.50002, -2.474204 ]
+						do_not_discard = true
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "1"
+						parent_bone = "flash"
+						relative_origin = [ 0.0, -0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, -0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "2"
+						parent_bone = "naboj"
+						relative_origin = [ 0.0, 0.0, -0.0 ]
+						relative_angles = [ 0.0, 0.000003, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "v_tct_ak47_bg_studio_lod0"
+						filename = "models/weapons/ak47/v_tct_ak47_refs/mesh/v_tct_ak47_bg_studio_lod0.dmx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "idle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "bonemask_default"
+						fade_in_time = 10.0
+						fade_out_time = 10.0
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ak47/v_tct_ak47_refs/anim/_idle_0.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 10.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "fire1"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_MUZZLEFLASH0"
+								event_frame = 0
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CLIENT_EFFECT_ATTACH"
+								event_frame = 0
+								event_keys = null
+							},
+						]
+						activity_name = "ACT_VM_PRIMARYATTACK"
+						activity_weight = 1
+						weight_list_name = "bonemask_default"
+						fade_in_time = 0.2
+						fade_out_time = 6.0
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ak47/v_tct_ak47_refs/anim/_fire1_1.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "fire2"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_MUZZLEFLASH0"
+								event_frame = 0
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CLIENT_EFFECT_ATTACH"
+								event_frame = 0
+								event_keys = null
+							},
+						]
+						activity_name = "ACT_VM_PRIMARYATTACK"
+						activity_weight = 1
+						weight_list_name = "bonemask_default"
+						fade_in_time = 0.2
+						fade_out_time = 6.0
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ak47/v_tct_ak47_refs/anim/_fire2_2.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "fire3"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_MUZZLEFLASH0"
+								event_frame = 0
+								event_keys = null
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CLIENT_EFFECT_ATTACH"
+								event_frame = 0
+								event_keys = null
+							},
+						]
+						activity_name = "ACT_VM_PRIMARYATTACK"
+						activity_weight = 1
+						weight_list_name = "bonemask_default"
+						fade_in_time = 0.2
+						fade_out_time = 6.0
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ak47/v_tct_ak47_refs/anim/_fire3_3.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "draw"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 1
+								event_keys = 
+								{
+									name = "Tactic_AK47.BoltPull"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_DRAW"
+						activity_weight = 1
+						weight_list_name = "bonemask_default"
+						fade_in_time = 0.2
+						fade_out_time = 6.0
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ak47/v_tct_ak47_refs/anim/_draw_4.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "reload_ak74"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 17
+								event_keys = 
+								{
+									name = "ak47_clipout"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 54
+								event_keys = 
+								{
+									name = "ak47_clipin"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = "ACT_VM_RELOAD"
+						activity_weight = 1
+						weight_list_name = "bonemask_default"
+						fade_in_time = 0.2
+						fade_out_time = 6.0
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ak47/v_tct_ak47_refs/anim/_reload_ak74_5.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "@idle_0"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ak47/v_tct_ak47_refs/anim/_idle_0.dmx"
+						start_frame = 0
+						end_frame = 39
+						framerate = 10.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "@fire1_1"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ak47/v_tct_ak47_refs/anim/_fire1_1.dmx"
+						start_frame = 0
+						end_frame = 29
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "@fire2_2"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ak47/v_tct_ak47_refs/anim/_fire2_2.dmx"
+						start_frame = 0
+						end_frame = 29
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "@fire3_3"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ak47/v_tct_ak47_refs/anim/_fire3_3.dmx"
+						start_frame = 0
+						end_frame = 29
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "@draw_4"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ak47/v_tct_ak47_refs/anim/_draw_4.dmx"
+						start_frame = 0
+						end_frame = 42
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "@reload_ak74_5"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/ak47/v_tct_ak47_refs/anim/_reload_ak74_5.dmx"
+						start_frame = 0
+						end_frame = 82
+						framerate = 30.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+			{
+				_class = "ModelModifierList"
+				children = 
+				[
+					{
+						_class = "ModelModifier_ScaleAndMirror"
+						scale = 1.0
+						mirror_x = false
+						mirror_y = true
+						mirror_z = false
+						flip_bone_forward = false
+						swap_left_and_right_bones = false
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "pbs_is_unused.vmat"
+								to = "models/weapons/ak47/texture/pbs.vmat"
+							},
+							{
+								from = "t1_is_unused.vmat"
+								to = "models/weapons/ak47/texture/t1.vmat"
+							},
+							{
+								from = "t2_is_unused.vmat"
+								to = "models/weapons/ak47/texture/t2.vmat"
+							},
+							{
+								from = "t_phoenix_is_unused.vmat"
+								to = "materials/dev/primary_black.vmat"
+							},
+							{
+								from = "v_hands_is_unused.vmat"
+								to = "materials/dev/primary_black.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = "models/weapons/ak47/css_v_smg_ak47.vanmgrph"
+	}
+}

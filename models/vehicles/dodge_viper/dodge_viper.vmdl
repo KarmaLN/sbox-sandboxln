@@ -1,0 +1,124 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "black.vmat"
+								to = "materials/dev/primary_black.vmat"
+							},
+							{
+								from = "carbonfiber.vmat"
+								to = "materials/dev/primary_black.vmat"
+							},
+							{
+								from = "glass_black.vmat"
+								to = "materials/dev/primary_black.vmat"
+							},
+							{
+								from = "grille.vmat"
+								to = "materials/dev/primary_black.vmat"
+							},
+							{
+								from = "interior_leather_dark.vmat"
+								to = "materials/dev/primary_white.vmat"
+							},
+							{
+								from = "rtscreen.vmat"
+								to = "materials/dev/primary_black.vmat"
+							},
+							{
+								from = "nodamage.vmat"
+								to = "materials/dev/primary_black.vmat"
+							},
+							{
+								from = "skin.vmat"
+								to = "materials/dev/primary_white.vmat"
+							},
+							{
+								from = "undercarriage.vmat"
+								to = "materials/dev/primary_black.vmat"
+							},
+							{
+								from = "tlights.vmat"
+								to = "materials/dev/primary_black.vmat"
+							},
+							{
+								from = "wood.vmat"
+								to = "models/vehicles/dodge_challenger_2015/textures/wood.vmat"
+							},
+							{
+								from = "glass.vmat"
+								to = "models/citizen_props/wineglass02.vmat"
+							},
+							{
+								from = "chrome.vmat"
+								to = "materials/dev/primary_white.vmat"
+							},
+							{
+								from = "interior_lod0.vmat"
+								to = "models/vehicles/dodge_viper/textures/interior_lod0.vmat"
+							},
+							{
+								from = "lights.vmat"
+								to = "models/vehicles/dodge_challenger_2015/textures/lights.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						origin = [ 2.006977, -0.049679, 38.165016 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 221.014511, 93.924721, 51.692745 ]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/vehicles/dodge_viper/dodgeviper.fbx"
+						import_translation = [ 0.0, 0.0, 200.0 ]
+						import_rotation = [ 0.0, 270.0, 0.0 ]
+						import_scale = 0.01
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = "Main"
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}

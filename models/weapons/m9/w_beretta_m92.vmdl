@@ -1,0 +1,240 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "BoneMarkupList"
+				bone_cull_type = "None"
+			},
+			{
+				_class = "WeightListList"
+				children = 
+				[
+					{
+						_class = "WeightList"
+						name = "bonemask_default"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "bip01_r_hand"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = -1.0
+						morph_weights = [  ]
+					},
+				]
+			},
+			{
+				_class = "Skeleton"
+				children = 
+				[
+					{
+						_class = "Bone"
+						name = "hold_R"
+						children = 
+						[
+							{
+								_class = "Bone"
+								name = "valvebiped"
+								children = 
+								[
+									{
+										_class = "Bone"
+										name = "weapon_bone"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "weapon_bone_clip"
+												origin = [ -0.365569, -4.566531, -2.077255 ]
+												angles = [ -0.0, 0.0, 0.0 ]
+												do_not_discard = true
+											},
+											{
+												_class = "Bone"
+												name = "flash"
+												origin = [ -0.605127, -0.347153, 7.114524 ]
+												angles = [ -0.0, 0.0, 0.0 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ 1.227019, 4.371634, 5.825668 ]
+										angles = [ -0.0, 0.0, 0.0 ]
+										do_not_discard = true
+									},
+								]
+								origin = [ 0.0, 0.0, 0.0 ]
+								angles = [ 0.0, 0.0, -90.000038 ]
+								do_not_discard = true
+							},
+						]
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ -0.0, 0.0, 179.999969 ]
+						do_not_discard = true
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "frame_is_unused.vmat"
+								to = "models/weapons/m9/texture/m9_frame.vmat"
+							},
+							{
+								from = "slide_is_unused.vmat"
+								to = "models/weapons/m9/texture/m9_slide.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						origin = [ 1.162417, -5.527613, 2.7089 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 1.096123, 4.606936, 3.513285 ]
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "muzzle_flash"
+						parent_bone = "flash"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ -90.0, -0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								parent_bone = "valvebiped"
+								surface_property = "weapon"
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ 0.0, 0.0, 0.0 ]
+								hitbox_maxs = [ 1.227, 4.372, 5.826 ]
+							},
+							{
+								_class = "Hitbox"
+								parent_bone = "weapon_bone"
+								surface_property = "weapon"
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -1.461, -6.015, -5.037 ]
+								hitbox_maxs = [ 0.264, 0.569, 7.115 ]
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "w_beretta_m92_bg_studio_lod0"
+						filename = "models/weapons/m9/w_beretta_m92_refs/mesh/w_beretta_m92_bg_studio_lod0.dmx"
+						import_translation = [ -4.0, 1.0, 2.0 ]
+						import_rotation = [ 180.0, 90.0, 0.0 ]
+						import_scale = 1.5
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "idle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = "bonemask_default"
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/m9/w_beretta_m92_refs/anim/_idle_0.dmx"
+						start_frame = -1
+						end_frame = -1
+						framerate = 30.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "@idle_0"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						source_filename = "models/weapons/m9/w_beretta_m92_refs/anim/_idle_0.dmx"
+						start_frame = 0
+						end_frame = 2
+						framerate = 30.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}
