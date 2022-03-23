@@ -1,6 +1,6 @@
 ﻿using Sandbox;
 
-[Library( "weapon_rifle_ak47", Title = "AK-47", Spawnable = true )]
+[Library("weapon_rifle_ak47", Title = "AK47", Spawnable = true)]
 partial class AK47 : Weapon
 {
 	public override string ViewModelPath => "models/weapons/ak47/v_tct_ak47.vmdl";
@@ -21,7 +21,7 @@ partial class AK47 : Weapon
 		TimeSincePrimaryAttack = 0;
 		TimeSinceSecondaryAttack = 0;
 
-		(Owner as AnimEntity)?.SetAnimParameter( "b_attack", true );
+		(Owner as AnimEntity)?.SetAnimParameter("b_attack", true);
 
 		//
 		// Tell the clients to play the shoot effects
@@ -32,7 +32,7 @@ partial class AK47 : Weapon
 		//
 		// Shoot the bullets
 		//
-		ShootBullet( 0.1f, 1.5f, 5.0f, 3.0f );
+		ShootBullet(0.1f, 1.5f, 5.0f, 3.0f);
 	}
 
 	public override void AttackSecondary()
@@ -45,21 +45,21 @@ partial class AK47 : Weapon
 	{
 		Host.AssertClient();
 
-		Particles.Create( "particles/pistol_muzzleflash.vpcf", EffectEntity, "muzzle" );
-		Particles.Create( "particles/pistol_ejectbrass.vpcf", EffectEntity, "ejection_point" );
+		Particles.Create("particles/pistol_muzzleflash.vpcf", EffectEntity, "muzzle");
+		Particles.Create("particles/pistol_ejectbrass.vpcf", EffectEntity, "ejection_point");
 
-		if ( Owner == Local.Pawn )
+		if (Owner == Local.Pawn)
 		{
-			new Sandbox.ScreenShake.Perlin( 0.5f, 4.0f, 1.0f, 0.5f );
+			new Sandbox.ScreenShake.Perlin(0.5f, 4.0f, 1.0f, 0.5f);
 		}
 
-		ViewModelEntity?.SetAnimParameter( "fire", true );
-		CrosshairPanel?.CreateEvent( "fire" );
+		ViewModelEntity?.SetAnimParameter("fire", true);
+		CrosshairPanel?.CreateEvent("fire");
 	}
 
-	public override void SimulateAnimator( PawnAnimator anim )
+	public override void SimulateAnimator(PawnAnimator anim)
 	{
-		anim.SetAnimParameter( "holdtype", 2 ); // TODO this is shit
-		anim.SetAnimParameter( "aim_body_weight", 1.0f );
+		anim.SetAnimParameter("holdtype", 2); // TODO this is shit
+		anim.SetAnimParameter("aim_body_weight", 1.0f);
 	}
 }

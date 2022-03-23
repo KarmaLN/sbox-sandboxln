@@ -264,34 +264,6 @@ public class SpawnMenu : Panel
 
 		// NPC Tab
 
-		tabSplit.Register("NPCs").WithPanel(() =>
-		{
-			CategorySplit catSplit = new();
-
-			catSplit.Register("Creatures").WithPanel(() => {
-				var scrollPanel = MakeScrollPanel();
-
-				scrollPanel.OnCreateCell = (cell, data) =>
-				{
-					var entry = (LibraryAttribute)data;
-					var spIcon = new SpawnIcon(entry.Title)
-						.WithIcon($"/entity/{entry.Name}.png");
-
-					spIcon.WithCallback((isLeftClick) =>
-					   ConsoleSystem.Run("spawn_entity", entry.Name));
-
-					cell.AddChild(spIcon);
-				};
-
-
-				var ents = Library.GetAllAttributes<Entity>().Where(x => x.Name.StartsWith("npc_")).OrderBy(x => x.Title);
-				foreach (var entry in ents) scrollPanel.AddItem(entry);
-				return scrollPanel;
-			}).SetActive();
-
-
-			return catSplit;
-		}).SetActive();
 
 
 	}

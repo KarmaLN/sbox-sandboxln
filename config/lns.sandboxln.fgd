@@ -1,5 +1,5 @@
 
-@BaseClass = BaseProperties_my_sandbox
+@BaseClass = BaseProperties_lns_sandboxln
 [
 	parentname(target_destination) [ group="Hierarchy" ] : "Parent" : : "The name of this entity's parent in the movement hierarchy. Entities with parents move with their parent."
 	parentAttachmentName(parentAttachment) [ group="Hierarchy" ] : "Parent Model Bone/Attachment Name" : : "The name of the bone or attachment to attach to on the entity's parent in the movement hierarchy. Use !bonemerge to use bone-merge style attachment."
@@ -16,7 +16,7 @@
 //
 // Tool
 //
-@PointClass base(BaseProperties_my_sandbox) = weapon_tool : ""
+@PointClass base(BaseProperties_lns_sandboxln) = weapon_tool : ""
 [
 	enable_shadows(boolean) { group = "Rendering" } : "Shadow Casting" : 1 : "Whether this entity should cast shadows or not"
 
@@ -26,7 +26,7 @@
 //
 // BalloonEntity
 //
-@PointClass base(BaseProperties_my_sandbox) tags( Physics ) model() = ent_balloon : ""
+@PointClass base(BaseProperties_lns_sandboxln, BasePhysicsSimulated) tags( Physics ) model() = ent_balloon : ""
 [
 	model(resource:vmdl) { report = true hide_when_solid = true }: "World Model" : "" : "The model this entity should use."
 	skin(materialgroup) { group = "Rendering" hide_when_solid = true } : "Skin" : "default" : "Some models have multiple versions of their textures, called skins." 
@@ -54,7 +54,7 @@
 //
 // BouncyBallEntity
 //
-@PointClass base(BaseProperties_my_sandbox) tags( Physics ) model() = ent_bouncyball : ""
+@PointClass base(BaseProperties_lns_sandboxln, BasePhysicsSimulated) tags( Physics ) model() = ent_bouncyball : ""
 [
 	model(resource:vmdl) { report = true hide_when_solid = true }: "World Model" : "" : "The model this entity should use."
 	skin(materialgroup) { group = "Rendering" hide_when_solid = true } : "Skin" : "default" : "Some models have multiple versions of their textures, called skins." 
@@ -82,7 +82,7 @@
 //
 // DirectionalGravity
 //
-@PointClass base(BaseProperties_my_sandbox) tags( Physics ) model() = directional_gravity : ""
+@PointClass base(BaseProperties_lns_sandboxln, BasePhysicsSimulated) tags( Physics ) model() = directional_gravity : ""
 [
 	model(resource:vmdl) { report = true hide_when_solid = true }: "World Model" : "" : "The model this entity should use."
 	skin(materialgroup) { group = "Rendering" hide_when_solid = true } : "Skin" : "default" : "Some models have multiple versions of their textures, called skins." 
@@ -110,7 +110,7 @@
 //
 // DroneEntity
 //
-@PointClass base(BaseProperties_my_sandbox) tags( Physics ) model() = ent_drone : ""
+@PointClass base(BaseProperties_lns_sandboxln, BasePhysicsSimulated) tags( Physics ) model() = ent_drone : ""
 [
 	model(resource:vmdl) { report = true hide_when_solid = true }: "World Model" : "" : "The model this entity should use."
 	skin(materialgroup) { group = "Rendering" hide_when_solid = true } : "Skin" : "default" : "Some models have multiple versions of their textures, called skins." 
@@ -138,7 +138,7 @@
 //
 // LampEntity
 //
-@PointClass base(BaseProperties_my_sandbox) tags( Lighting ) editormodel( "models/editor/spot", lightModeTint, "0 255 192", "255 64 64" ) leansphere( "lightsourceradius" ) light() lightcone() = ent_lamp : ""
+@PointClass base(BaseProperties_lns_sandboxln) tags( Lighting ) editormodel( "models/editor/spot", lightModeTint, "0 255 192", "255 64 64" ) leansphere( "lightsourceradius" ) light() lightcone() = ent_lamp : ""
 [
 	enabled(boolean) : "Enabled" : 1 : ""
 	color(color255) : "Color" : "255 255 255" : ""
@@ -227,7 +227,7 @@
 //
 // LightEntity
 //
-@PointClass base(BaseProperties_my_sandbox) tags( Lighting ) editormodel( "models/editor/omni", lightModeTint, "0 255 192", "255 64 64" ) leansphere( "lightsourceradius" ) sphere( "range", 255, 255, 0 ) light() = ent_light : ""
+@PointClass base(BaseProperties_lns_sandboxln) tags( Lighting ) editormodel( "models/editor/omni", lightModeTint, "0 255 192", "255 64 64" ) leansphere( "lightsourceradius" ) sphere( "range", 255, 255, 0 ) light() = ent_light : ""
 [
 	enabled(boolean) : "Enabled" : 1 : ""
 	color(color255) : "Color" : "255 255 255" : ""
@@ -307,7 +307,7 @@
 //
 // NoiseTest
 //
-@PointClass base(BaseProperties_my_sandbox) tags( Physics ) model() = noise_test : ""
+@PointClass base(BaseProperties_lns_sandboxln, BasePhysicsSimulated) tags( Physics ) model() = noise_test : ""
 [
 	model(resource:vmdl) { report = true hide_when_solid = true }: "World Model" : "" : "The model this entity should use."
 	skin(materialgroup) { group = "Rendering" hide_when_solid = true } : "Skin" : "default" : "Some models have multiple versions of their textures, called skins." 
@@ -335,7 +335,7 @@
 //
 // ThrusterEntity
 //
-@PointClass base(BaseProperties_my_sandbox) tags( Physics ) model() = ent_thruster : ""
+@PointClass base(BaseProperties_lns_sandboxln, BasePhysicsSimulated) tags( Physics ) model() = ent_thruster : ""
 [
 	model(resource:vmdl) { report = true hide_when_solid = true }: "World Model" : "" : "The model this entity should use."
 	skin(materialgroup) { group = "Rendering" hide_when_solid = true } : "Skin" : "default" : "Some models have multiple versions of their textures, called skins." 
@@ -363,7 +363,7 @@
 //
 // WheelEntity
 //
-@PointClass base(BaseProperties_my_sandbox) tags( Physics ) model() = ent_wheel : ""
+@PointClass base(BaseProperties_lns_sandboxln, BasePhysicsSimulated) tags( Physics ) model() = ent_wheel : ""
 [
 	model(resource:vmdl) { report = true hide_when_solid = true }: "World Model" : "" : "The model this entity should use."
 	skin(materialgroup) { group = "Rendering" hide_when_solid = true } : "Skin" : "default" : "Some models have multiple versions of their textures, called skins." 
@@ -391,7 +391,7 @@
 //
 // GravGun
 //
-@PointClass base(BaseProperties_my_sandbox) = gravgun : ""
+@PointClass base(BaseProperties_lns_sandboxln) = gravgun : ""
 [
 	enable_shadows(boolean) { group = "Rendering" } : "Shadow Casting" : 1 : "Whether this entity should cast shadows or not"
 
@@ -401,7 +401,7 @@
 //
 // PhysGun
 //
-@PointClass base(BaseProperties_my_sandbox) = physgun : ""
+@PointClass base(BaseProperties_lns_sandboxln) = physgun : ""
 [
 	enable_shadows(boolean) { group = "Rendering" } : "Shadow Casting" : 1 : "Whether this entity should cast shadows or not"
 
@@ -411,7 +411,7 @@
 //
 // Fists
 //
-@PointClass base(BaseProperties_my_sandbox) = weapon_fists : ""
+@PointClass base(BaseProperties_lns_sandboxln) = weapon_fists : ""
 [
 	enable_shadows(boolean) { group = "Rendering" } : "Shadow Casting" : 1 : "Whether this entity should cast shadows or not"
 
@@ -421,7 +421,7 @@
 //
 // Flashlight
 //
-@PointClass base(BaseProperties_my_sandbox) = weapon_flashlight : ""
+@PointClass base(BaseProperties_lns_sandboxln) = weapon_flashlight : ""
 [
 	enable_shadows(boolean) { group = "Rendering" } : "Shadow Casting" : 1 : "Whether this entity should cast shadows or not"
 
@@ -431,7 +431,7 @@
 //
 // Pistol
 //
-@PointClass base(BaseProperties_my_sandbox) = weapon_pistol : ""
+@PointClass base(BaseProperties_lns_sandboxln) = weapon_pistol : ""
 [
 	enable_shadows(boolean) { group = "Rendering" } : "Shadow Casting" : 1 : "Whether this entity should cast shadows or not"
 
@@ -441,7 +441,7 @@
 //
 // Shotgun
 //
-@PointClass base(BaseProperties_my_sandbox) = weapon_shotgun : ""
+@PointClass base(BaseProperties_lns_sandboxln) = weapon_shotgun : ""
 [
 	enable_shadows(boolean) { group = "Rendering" } : "Shadow Casting" : 1 : "Whether this entity should cast shadows or not"
 
@@ -451,7 +451,7 @@
 //
 // SMG
 //
-@PointClass base(BaseProperties_my_sandbox) = weapon_smg : ""
+@PointClass base(BaseProperties_lns_sandboxln) = weapon_smg : ""
 [
 	enable_shadows(boolean) { group = "Rendering" } : "Shadow Casting" : 1 : "Whether this entity should cast shadows or not"
 
@@ -461,7 +461,103 @@
 //
 // CarEntity
 //
-@PointClass base(BaseProperties_my_sandbox) tags( Physics ) model() = ent_car : ""
+@PointClass base(BaseProperties_lns_sandboxln, BasePhysicsSimulated) tags( Physics ) model() = vehicle_car : ""
+[
+	model(resource:vmdl) { report = true hide_when_solid = true }: "World Model" : "" : "The model this entity should use."
+	skin(materialgroup) { group = "Rendering" hide_when_solid = true } : "Skin" : "default" : "Some models have multiple versions of their textures, called skins." 
+	bodygroups(bodygroupchoices) { group = "Rendering" hide_when_solid = true } : "Body Groups" : "" : "Some models have multiple variations of certain items, such as characters having different hair styles, etc."
+	rendercolor(color255) { alpha = true } : "Color (R G B A)" : "255 255 255 255" : "The color tint of this entity."
+	collisiongroupoverride(choices) : "Collision Group Override" : -1 : "" =
+	[
+		-1 : "UNUSED"
+		0 : "COLLISION GROUP ALWAYS"
+		1 : "COLLISION GROUP NONPHYSICAL"
+		4 : "COLLISION GROUP DEFAULT"
+		5 : "COLLISION GROUP DEBRIS"
+		14 : "COLLISION GROUP WEAPON"
+	]
+	static(boolean) : "Static" : 0 : "If set, the prop will spawn with motion disabled and will act as a nav blocker until broken."
+	enable_shadows(boolean) { group = "Rendering" } : "Shadow Casting" : 1 : "Whether this entity should cast shadows or not"
+
+	input Break(void) : "Causes this prop to break, regardless if it is actually breakable or not. (i.e. ignores health and whether the model has gibs)"
+	input SetColor(string) : "Sets the color of this entity. Format is '255 255 255 255'."
+
+	output OnDamaged(void) : "Fired when the entity gets damaged."
+	output OnBreak(void) : "Fired when the entity gets destroyed."
+]
+
+//
+// M1911
+//
+@PointClass base(BaseProperties_lns_sandboxln) = weapon_pistol_m1911 : ""
+[
+	enable_shadows(boolean) { group = "Rendering" } : "Shadow Casting" : 1 : "Whether this entity should cast shadows or not"
+
+	input SetColor(string) : "Sets the color of this entity. Format is '255 255 255 255'."
+]
+
+//
+// M9
+//
+@PointClass base(BaseProperties_lns_sandboxln) = weapon_pistol_m9 : ""
+[
+	enable_shadows(boolean) { group = "Rendering" } : "Shadow Casting" : 1 : "Whether this entity should cast shadows or not"
+
+	input SetColor(string) : "Sets the color of this entity. Format is '255 255 255 255'."
+]
+
+//
+// AK47
+//
+@PointClass base(BaseProperties_lns_sandboxln) = weapon_rifle_ak47 : ""
+[
+	enable_shadows(boolean) { group = "Rendering" } : "Shadow Casting" : 1 : "Whether this entity should cast shadows or not"
+
+	input SetColor(string) : "Sets the color of this entity. Format is '255 255 255 255'."
+]
+
+//
+// G36C
+//
+@PointClass base(BaseProperties_lns_sandboxln) = weapon_rifle_g36c : ""
+[
+	enable_shadows(boolean) { group = "Rendering" } : "Shadow Casting" : 1 : "Whether this entity should cast shadows or not"
+
+	input SetColor(string) : "Sets the color of this entity. Format is '255 255 255 255'."
+]
+
+//
+// vehicle_dodge_challenger
+//
+@PointClass base(BaseProperties_lns_sandboxln, BasePhysicsSimulated) tags( Physics ) model() = vehicle_dodge_challenger : ""
+[
+	model(resource:vmdl) { report = true hide_when_solid = true }: "World Model" : "" : "The model this entity should use."
+	skin(materialgroup) { group = "Rendering" hide_when_solid = true } : "Skin" : "default" : "Some models have multiple versions of their textures, called skins." 
+	bodygroups(bodygroupchoices) { group = "Rendering" hide_when_solid = true } : "Body Groups" : "" : "Some models have multiple variations of certain items, such as characters having different hair styles, etc."
+	rendercolor(color255) { alpha = true } : "Color (R G B A)" : "255 255 255 255" : "The color tint of this entity."
+	collisiongroupoverride(choices) : "Collision Group Override" : -1 : "" =
+	[
+		-1 : "UNUSED"
+		0 : "COLLISION GROUP ALWAYS"
+		1 : "COLLISION GROUP NONPHYSICAL"
+		4 : "COLLISION GROUP DEFAULT"
+		5 : "COLLISION GROUP DEBRIS"
+		14 : "COLLISION GROUP WEAPON"
+	]
+	static(boolean) : "Static" : 0 : "If set, the prop will spawn with motion disabled and will act as a nav blocker until broken."
+	enable_shadows(boolean) { group = "Rendering" } : "Shadow Casting" : 1 : "Whether this entity should cast shadows or not"
+
+	input Break(void) : "Causes this prop to break, regardless if it is actually breakable or not. (i.e. ignores health and whether the model has gibs)"
+	input SetColor(string) : "Sets the color of this entity. Format is '255 255 255 255'."
+
+	output OnDamaged(void) : "Fired when the entity gets damaged."
+	output OnBreak(void) : "Fired when the entity gets destroyed."
+]
+
+//
+// vehicle_dodge_viper
+//
+@PointClass base(BaseProperties_lns_sandboxln, BasePhysicsSimulated) tags( Physics ) model() = vehicle_dodge_viper : ""
 [
 	model(resource:vmdl) { report = true hide_when_solid = true }: "World Model" : "" : "The model this entity should use."
 	skin(materialgroup) { group = "Rendering" hide_when_solid = true } : "Skin" : "default" : "Some models have multiple versions of their textures, called skins." 

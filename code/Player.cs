@@ -1,6 +1,7 @@
 ﻿using Sandbox;
 using Sandbox.Tools;
 
+
 partial class SandboxPlayer : Player
 {
 	private TimeSince timeSinceDropped;
@@ -26,8 +27,8 @@ partial class SandboxPlayer : Player
 	/// <summary>
 	/// Default init
 	/// </summary>
-	public SandboxPlayer()
-	{
+	public SandboxPlayer() 
+{
 		Inventory = new Inventory( this );
 	}
 
@@ -35,7 +36,7 @@ partial class SandboxPlayer : Player
 	/// Initialize using this client
 	/// </summary>
 	public SandboxPlayer( Client cl ) : this()
-	{
+{
 		// Load clothing from client data
 		Clothing.LoadFromClient( cl );
 	}
@@ -46,6 +47,10 @@ partial class SandboxPlayer : Player
 		LastCamera = MainCamera;
 
 		base.Spawn();
+
+		Health = 1000;
+
+
 	}
 
 	public override void Respawn()
@@ -62,6 +67,8 @@ partial class SandboxPlayer : Player
 			DevController = null;
 		}
 
+
+
 		EnableAllCollisions = true;
 		EnableDrawing = true;
 		EnableHideInFirstPerson = true;
@@ -76,7 +83,10 @@ partial class SandboxPlayer : Player
 		Inventory.Add( new Flashlight() );
 		Inventory.Add( new Fists() );
 
+
 		base.Respawn();
+
+		Health = 1000;
 	}
 
 	public override void OnKilled()

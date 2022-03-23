@@ -1,0 +1,159 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "defaultmat.vmat"
+								to = "materials/dev/primary_black.vmat"
+							},
+							{
+								from = "material__102.vmat"
+								to = "materials/dev/primary_black.vmat"
+							},
+							{
+								from = "wire_177028149.vmat"
+								to = "materials/dev/primary_black.vmat"
+							},
+							{
+								from = "default.vmat"
+								to = "materials/dev/primary_black.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						radius = 13.482691
+						point0 = [ 0.0, 0.0, 11.4305 ]
+						point1 = [ 0.0, 0.0, 89.973938 ]
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "Hitbox"
+						children = 
+						[
+							{
+								_class = "HitboxCapsule"
+								name = "Head"
+								parent_bone = ""
+								surface_property = ""
+								translation_only = false
+								group_id = 1
+								radius = 8.241728
+								point0 = [ 9.229207, 0.396063, 94.697578 ]
+								point1 = [ 9.23822, 0.400394, 94.697594 ]
+							},
+							{
+								_class = "HitboxCapsule"
+								name = "RightLeg_up"
+								parent_bone = ""
+								surface_property = ""
+								translation_only = false
+								group_id = 7
+								radius = 2.5
+								point0 = [ -11.926022, -7.143729, 50.453434 ]
+								point1 = [ 6.023949, -6.467628, 29.124622 ]
+							},
+							{
+								_class = "HitboxCapsule"
+								name = "RightLeg_down"
+								parent_bone = ""
+								surface_property = ""
+								translation_only = false
+								group_id = 7
+								radius = 2.5
+								point0 = [ 6.586338, -6.517951, 29.231331 ]
+								point1 = [ -2.518927, -6.222754, 5.505228 ]
+							},
+							{
+								_class = "HitboxCapsule"
+								name = "LeftLeg_up"
+								parent_bone = ""
+								surface_property = ""
+								translation_only = false
+								group_id = 6
+								radius = 2.5
+								point0 = [ -11.637994, 6.294789, 50.302921 ]
+								point1 = [ 6.311976, 6.97089, 28.97411 ]
+							},
+							{
+								_class = "HitboxCapsule"
+								name = "Chest"
+								parent_bone = ""
+								surface_property = ""
+								translation_only = false
+								group_id = 2
+								radius = 8.966979
+								point0 = [ -2.00618, 0.133756, 85.519592 ]
+								point1 = [ -9.857624, 0.171275, 55.118652 ]
+							},
+							{
+								_class = "HitboxCapsule"
+								name = "LeftLeg_down"
+								parent_bone = ""
+								surface_property = ""
+								translation_only = false
+								group_id = 7
+								radius = 2.5
+								point0 = [ 5.786809, 6.248192, 28.706192 ]
+								point1 = [ -3.318456, 6.543389, 4.980088 ]
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/npcs/zombie/abuelo_2.FBX"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 180.0, 0.0 ]
+						import_scale = 1.0
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}

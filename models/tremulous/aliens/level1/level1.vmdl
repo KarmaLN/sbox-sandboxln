@@ -1,0 +1,159 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						filename = "models/tremulous/aliens/level1/level1.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 0.15
+						align_origin_x_type = "None"
+						align_origin_y_type = "None"
+						align_origin_z_type = "None"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "material_51.vmat"
+								to = "models/tremulous/aliens/level1/level1.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsJointList"
+				children = 
+				[
+					{
+						_class = "Folder"
+						name = "PhysicJointBody"
+						children = 
+						[
+							{
+								_class = "PhysicsJointConical"
+								parent_body = "Spine"
+								child_body = "Tail"
+								anchor_origin = [ 0.0, 0.0, 0.0 ]
+								anchor_angles = [ 0.0, 0.0, 0.0 ]
+								collision_enabled = true
+								friction = 3.0
+								enable_swing_limit = false
+								swing_limit = 0.0
+								swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+								enable_twist_limit = false
+								min_twist_angle = 0.0
+								max_twist_angle = 0.0
+							},
+							{
+								_class = "PhysicsJointConical"
+								parent_body = "Head"
+								child_body = "Spine"
+								anchor_origin = [ 0.0, 0.0, 0.0 ]
+								anchor_angles = [ 0.0, 0.0, 0.0 ]
+								collision_enabled = true
+								friction = 3.0
+								enable_swing_limit = false
+								swing_limit = 0.0
+								swing_offset_angle = [ 0.0, 0.0, 0.0 ]
+								enable_twist_limit = false
+								min_twist_angle = 0.0
+								max_twist_angle = 0.0
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "Folder"
+						name = "PhysicBody"
+						children = 
+						[
+							{
+								_class = "PhysicsShapeCapsule"
+								parent_bone = "Spine"
+								surface_prop = "flesh"
+								collision_prop = "default"
+								radius = 11.444757
+								point0 = [ 0.097504, 0.473438, -2.444633 ]
+								point1 = [ -0.367264, 26.536732, -1.323997 ]
+							},
+							{
+								_class = "PhysicsShapeCapsule"
+								parent_bone = "Head"
+								surface_prop = "flesh"
+								collision_prop = "default"
+								radius = 5.681694
+								point0 = [ -0.105689, 3.45807, -2.435995 ]
+								point1 = [ 0.364913, 13.192917, -1.5033 ]
+							},
+							{
+								_class = "PhysicsShapeCapsule"
+								parent_bone = "Tail"
+								surface_prop = "flesh"
+								collision_prop = "default"
+								radius = 4.523019
+								point0 = [ 0.195758, 4.760147, 3.135475 ]
+								point1 = [ 0.705791, 32.967724, -0.351091 ]
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "Hitbox"
+						children = 
+						[
+							{
+								_class = "HitboxCapsule"
+								parent_bone = "Spine"
+								surface_property = "flesh"
+								translation_only = false
+								group_id = 2
+								radius = 10.836159
+								point0 = [ -0.103597, 1.84725, -1.031705 ]
+								point1 = [ -0.135719, 22.733465, -1.067844 ]
+							},
+						]
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}

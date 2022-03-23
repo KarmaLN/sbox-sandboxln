@@ -51,6 +51,7 @@ partial class SandboxGame : Game
 		ent.Rotation = Rotation.From( new Angles( 0, owner.EyeRotation.Angles().yaw, 0 ) ) * Rotation.FromAxis( Vector3.Up, 180 );
 		ent.SetModel( modelname );
 		ent.Position = tr.EndPosition - Vector3.Up * ent.CollisionBounds.Mins.z;
+		
 
 		if(modelname == "models/citizen/citizen.vmdl" && ownerTool.CurrentTool is Dresser dresser )
 			dresser.ApplyClothing(ent);

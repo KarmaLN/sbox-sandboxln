@@ -1,7 +1,7 @@
 {
   "Title": "sandboxln",
   "Type": "game",
-  "Org": "local",
+  "Org": "lns",
   "Ident": "sandboxln",
   "Schema": 1,
   "HasAssets": true,

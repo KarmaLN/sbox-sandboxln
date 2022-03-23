@@ -3,6 +3,7 @@ using System;
 using System.Linq;
 using System.Collections.Generic;
 
+
 partial class Inventory : BaseInventory
 {
 	static Dictionary<Type, int> ToolOrder = new()
